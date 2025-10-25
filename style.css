@@ -621,31 +621,3 @@ footer{
   box-shadow: 0 0 15px rgba(0, 188, 212, 0.4);
 }
 
-
-/* ========== FORMULAIRE CYBER – ANIMATIONS ========== */
-.form-status {
-  margin-top: 1rem;
-  text-align: center;
-  font-weight: 600;
-  font-size: 1rem;
-  opacity: 0;
-  transform: translateY(10px);
-  transition: all 0.6s ease;
-}
-
-.form-status.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.form-status.success {
-  color: #00eaff;
-  text-shadow: 0 0 10px rgba(0, 234, 255, 0.6);
-}
-
-/* Halo lumineux du formulaire après envoi */
-.contact-form.sent {
-  box-shadow: 0 0 25px rgba(0, 188, 212, 0.4);
-  transition: box-shadow 0.6s ease-in-out;
-}
-
