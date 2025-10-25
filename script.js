@@ -118,21 +118,52 @@ window.addEventListener('scroll', activateTimelineGlow);
 window.addEventListener('load', activateTimelineGlow);
 
 
-/* ========== MESSAGE DE CONFIRMATION FORMULAIRE (FormSubmit) ========== */
+/* ========== FORMULAIRE DE CONTACT CYBER + ENVOI RÉEL (FORMSUBMIT) ========== */
 const contactForm = document.getElementById("contactForm");
 const formStatus = document.getElementById("formStatus");
 
 if (contactForm) {
-  contactForm.addEventListener("submit", () => {
+  contactForm.addEventListener("submit", async (e) => {
+    e.preventDefault();
+
+    // Animation d’envoi
     formStatus.textContent = "⏳ Envoi en cours...";
-    formStatus.classList.add("visible");
+    formStatus.className = "form-status visible";
     formStatus.style.color = "#00eaff";
 
-    setTimeout(() => {
-      formStatus.textContent = "✅ Merci, votre message a bien été envoyé !";
-    }, 1500);
+    const formData = new FormData(contactForm);
+
+    try {
+      // 👉 remplace cet e-mail par le tien
+      const response = await fetch("https://formsubmit.co/hamidi.ambdil@gmail.com", {
+        method: "POST",
+        body: formData,
+        headers: { Accept: "application/json" },
+      });
+
+      if (response.ok) {
+        // Succès
+        formStatus.textContent = "✅ Merci, votre message a bien été envoyé !";
+        formStatus.classList.add("success");
+        contactForm.classList.add("sent");
+
+        // Effet de halo cyber
+        setTimeout(() => contactForm.classList.remove("sent"), 2000);
+        contactForm.reset();
+
+        // Disparition du message après 6 s
+        setTimeout(() => formStatus.classList.remove("visible"), 6000);
+      } else {
+        throw new Error("Erreur FormSubmit");
+      }
+    } catch (error) {
+      formStatus.textContent = "❌ Une erreur est survenue, veuillez réessayer.";
+      formStatus.classList.add("error", "visible");
+    }
   });
 }
+
+
 
 
 
