@@ -16,7 +16,6 @@
     "📱 Ne partagez pas d’informations sensibles en ligne",
     "🚨 Signalez toute activité suspecte à votre RSSI",
     "🧱 Un pare-feu n’est utile que s’il est bien configuré",
-    "🧱 Un pare-feu n’est utile que s’il est bien configuré",
     "👁️‍🗨️ La vigilance humaine reste le meilleur antivirus",
     "🕵️‍♂️ Méfiez-vous des e-mails trop urgents ou trop beaux pour être vrais",
     "🪪 Ne prêtez jamais vos identifiants, même temporairement",
@@ -183,6 +182,7 @@ if (contactForm) {
     }
   });
 }
+
 
 
 
