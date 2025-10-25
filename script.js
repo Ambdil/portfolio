@@ -16,25 +16,6 @@
     "📱 Ne partagez pas d’informations sensibles en ligne",
     "🚨 Signalez toute activité suspecte à votre RSSI"
     "🧱 Un pare-feu n’est utile que s’il est bien configuré",
-  "👁️‍🗨️ La vigilance humaine reste le meilleur antivirus",
-  "🕵️‍♂️ Méfiez-vous des e-mails trop urgents ou trop beaux pour être vrais",
-  "🪪 Ne prêtez jamais vos identifiants, même temporairement",
-  "📎 Vérifiez toujours l’expéditeur avant d’ouvrir une pièce jointe",
-  "💻 Bloquez votre session avant de quitter votre poste",
-  "🔐 Changez vos mots de passe régulièrement",
-  "🧑‍💻 Sécuriser, c’est protéger vos données et celles des autres",
-  "☁️ Ne stockez pas de données sensibles sur des clouds publics",
-  "🔍 Surveillez les connexions inhabituelles à vos comptes",
-  "📲 Un smartphone non mis à jour = une porte ouverte",
-  "🕹️ Une clé USB inconnue ? Ne la branchez pas !",
-  "🧬 Le phishing évolue sans cesse : restez curieux et formés",
-  "📊 Les sauvegardes sont inutiles… jusqu’au jour où elles sauvent tout",
-  "🔓 Un seul clic peut compromettre tout un système",
-  "🧰 Testez régulièrement vos plans de reprise d’activité",
-  "🛰️ Ne partagez pas d’informations internes sur les réseaux sociaux",
-  "🧯 En cas d’incident, gardez votre calme et alertez votre RSSI",
-  "📘 La sécurité, c’est une habitude, pas un réflexe ponctuel",
-  "🔄 Une bonne hygiène numérique se construit au quotidien"
   ];
 
   const fontSize = 18;
@@ -182,6 +163,7 @@ if (contactForm) {
     }
   });
 }
+
 
 
 
