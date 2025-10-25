@@ -287,7 +287,16 @@
   <p>Vous pouvez me contacter via ce formulaire ou par mail à 
      <a href="mailto:hamidi.ambdil@gmail.com">hamidi.ambdil@gmail.com</a>.</p>
 
-<form class="contact-form" id="contactForm">
+ <form
+  class="contact-form"
+  id="contactForm"
+  action="https://formsubmit.co/hamidi.ambdil@gmail.com"
+  method="POST"
+>
+  <!-- Empêche l’ouverture d’un nouvel onglet FormSubmit -->
+  <input type="hidden" name="_next" value="https://tonsite.com#contact">
+  <input type="hidden" name="_captcha" value="false">
+
   <div class="form-group">
     <label for="name">Nom</label>
     <input type="text" id="name" name="name" required placeholder="Votre nom complet">
@@ -304,8 +313,6 @@
   </div>
 
   <button type="submit" class="btn">Envoyer</button>
-
-  <!-- Message de statut -->
   <p id="formStatus" class="form-status"></p>
 </form>
    
@@ -319,4 +326,5 @@
   <script src="script.js"></script>
 </body>
 </html>
+
 
