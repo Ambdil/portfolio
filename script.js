@@ -35,7 +35,7 @@
     "🛰️ Ne partagez pas d’informations internes sur les réseaux sociaux",
     "🧯 En cas d’incident, gardez votre calme et alertez votre RSSI",
     "📘 La sécurité, c’est une habitude, pas un réflexe ponctuel",
-    "🔄 Une bonne hygiène numérique se construit au quotidien"
+    "🔄 Une bonne hygiène numérique se construit au quotidien",
   ];
 
   const fontSize = 18;
@@ -183,6 +183,7 @@ if (contactForm) {
     }
   });
 }
+
 
 
 
