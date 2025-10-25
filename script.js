@@ -136,41 +136,4 @@ if (contactForm) {
 
 
 
-/* ========== FORMULAIRE DE CONTACT LOCAL (CYBER) ========== */
-const contactForm = document.getElementById("contactForm");
-const formStatus = document.getElementById("formStatus");
-
-if (contactForm) {
-  contactForm.addEventListener("submit", (e) => {
-    e.preventDefault();
-
-    // Animation d’envoi
-    formStatus.textContent = "⏳ Envoi en cours...";
-    formStatus.className = "form-status visible";
-    formStatus.style.color = "#00eaff";
-
-    // Simule le délai d’envoi (1,5 s)
-    setTimeout(() => {
-      // Simulation de succès
-      formStatus.textContent = "✅ Merci, votre message a bien été envoyé !";
-      formStatus.classList.add("success");
-
-      // Effet de halo cyber
-      contactForm.classList.add("sent");
-      setTimeout(() => {
-        contactForm.classList.remove("sent");
-      }, 2000);
-
-      // Réinitialise les champs
-      contactForm.reset();
-
-      // Disparition du message après 6 s
-      setTimeout(() => {
-        formStatus.classList.remove("visible");
-      }, 6000);
-    }, 1500);
-  });
-}
-
-
 
