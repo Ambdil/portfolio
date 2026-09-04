@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Administrateur Systèmes – CHU de Bordeaux | Détails</title>
+  <meta name="description" content="Détails de l'expérience Administrateur Systèmes au CHU de Bordeaux : administration Windows et Linux, VMware, supervision, sauvegardes, Exchange, applications métiers et automatisation." />
+
+  <style>
+    :root{
+      --bg:#0a0e17;
+      --card:#121a26;
+      --accent:#00bcd4;
+      --muted:#bbb;
+    }
+
+    *{
+      box-sizing:border-box;
+      margin:0;
+      padding:0
+    }
+
+    body{
+      font-family:Poppins,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+      background:var(--bg);
+      color:#f5f5f5;
+      line-height:1.7;
+    }
+
+    .container{
+      max-width:1000px;
+      margin:0 auto;
+      padding:24px 20px 64px
+    }
+
+    header{
+      position:sticky;
+      top:0;
+      background:rgba(10,14,23,.7);
+      backdrop-filter:blur(6px);
+      border-bottom:1px solid rgba(255,255,255,.06);
+      z-index:10;
+    }
+
+    header .container{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      padding:14px 20px;
+    }
+
+    a.logo{
+      color:#fff;
+      text-decoration:none;
+      font-weight:600;
+      font-size:1.2rem;
+    }
+
+    a.logo span{
+      color:var(--accent);
+    }
+
+    .btn{
+      display:inline-block;
+      padding:10px 16px;
+      border-radius:999px;
+      background:var(--accent);
+      color:#04131a;
+      text-decoration:none;
+      font-weight:600;
+      transition:background .25s ease;
+    }
+
+    .btn:hover{
+      background:#04d0ee;
+    }
+
+    .btn-outline{
+      background:transparent;
+      color:#fff;
+      border:1px solid rgba(255,255,255,.15);
+    }
+
+    main .container{
+      padding-top:28px;
+    }
+
+    h1{
+      font-size:2rem;
+      margin-bottom:.4rem;
+    }
+
+    .meta{
+      color:var(--muted);
+      margin-bottom:1.2rem;
+    }
+
+    .card{
+      background:var(--card);
+      border:1px solid rgba(255,255,255,.08);
+      border-radius:14px;
+      padding:22px;
+      margin:18px 0;
+      box-shadow:0 0 18px rgba(0,188,212,.12);
+    }
+
+    h2{
+      color:var(--accent);
+      font-size:1.25rem;
+      margin-bottom:.6rem;
+    }
+
+    ul{
+      padding-left:18px;
+    }
+
+    li{
+      margin:8px 0;
+    }
+
+    strong{
+      color:#fff;
+    }
+
+    footer{
+      margin-top:40px;
+      color:#7c8a97;
+      text-align:center;
+      font-size:0.9rem;
+    }
+
+    @media (max-width:900px){
+      .container{
+        padding:20px;
+      }
+
+      h1{
+        font-size:1.6rem;
+      }
+    }
+
+    @media print{
+      header,
+      footer,
+      .btn{
+        display:none !important
+      }
+
+      body{
+        background:#fff;
+        color:#000
+      }
+
+      .card{
+        box-shadow:none;
+        border-color:#ddd
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+
+```
+  <a class="logo" href="index.html#experience">
+    A.Hamidi<span>.</span>
+  </a>
+
+  <nav>
+    <a class="btn btn-outline" href="index.html#experience">
+      Retour au portfolio
+    </a>
+  </nav>
+
+</div>
+```
+
+  </header>
+
+  <main>
+
+```
+<div class="container">
+
+  <h1>Administrateur Systèmes – CHU de Bordeaux</h1>
+
+  <p class="meta">
+    2026 • CDD • Bordeaux, Nouvelle-Aquitaine
+  </p>
+
+
+  <!-- CONTEXTE -->
+
+  <section class="card">
+
+    <h2>Contexte &amp; Objectifs</h2>
+
+    <p>
+      Expérience au sein du <strong>CHU de Bordeaux</strong> dans un environnement
+      informatique hospitalier nécessitant le maintien en conditions opérationnelles
+      des infrastructures systèmes et des applications métiers.
+    </p>
+
+    <p style="margin-top:12px;">
+      L'objectif principal est d'assurer la <strong>disponibilité, la stabilité et
+      la continuité des services informatiques</strong>, tout en participant à
+      l'administration des infrastructures, au traitement des incidents et aux
+      opérations de maintenance.
+    </p>
+
+  </section>
+
+
+  <!-- MISSIONS -->
+
+  <section class="card">
+
+    <h2>Missions principales</h2>
+
+    <ul>
+
+      <li>
+        Administration, installation, configuration et maintien en conditions
+        opérationnelles des serveurs <strong>Windows Server</strong> et
+        <strong>Linux (Debian, Red Hat)</strong>.
+      </li>
+
+      <li>
+        Administration de l'environnement de virtualisation
+        <strong>VMware vCenter</strong> : création et maintenance de templates
+        Windows, déploiement et gestion des machines virtuelles.
+      </li>
+
+      <li>
+        Supervision des environnements systèmes et prise en charge des incidents
+        et demandes de niveaux <strong>N2/N3</strong> via l'outil de ticketing,
+        avec diagnostic et résolution des problématiques complexes.
+      </li>
+
+      <li>
+        Gestion des sauvegardes : contrôle quotidien des jobs,
+        <strong>restauration de machines virtuelles</strong> et restauration
+        de <strong>boîtes aux lettres Microsoft Exchange</strong>.
+      </li>
+
+      <li>
+        Réalisation des <strong>montées de version</strong> et des opérations
+        de maintenance des applications métiers hospitalières.
+      </li>
+
+      <li>
+        Développement et automatisation de scripts d'exploitation ainsi que
+        des traitements de paie via l'ordonnanceur
+        <strong>Visual TOM</strong>.
+      </li>
+
+      <li>
+        Rédaction, mise à jour et amélioration continue de la
+        <strong>documentation et des procédures techniques d'exploitation</strong>.
+      </li>
+
+    </ul>
+
+  </section>
+
+
+  <!-- COMPETENCES -->
+
+  <section class="card">
+
+    <h2>Compétences mobilisées</h2>
+
+    <p>
+      Administration systèmes Windows Server et Linux, VMware vCenter,
+      virtualisation, supervision, support N2/N3, gestion des incidents,
+      sauvegarde et restauration, Microsoft Exchange, maintenance
+      d'applications métiers, automatisation, Visual TOM, scripting,
+      documentation technique et procédures d'exploitation.
+    </p>
+
+  </section>
+
+
+  <!-- ENVIRONNEMENT -->
+
+  <section class="card">
+
+    <h2>Environnement technique</h2>
+
+    <ul>
+
+      <li>
+        <strong>Systèmes :</strong>
+        Windows Server, Debian, Red Hat
+      </li>
+
+      <li>
+        <strong>Virtualisation :</strong>
+        VMware vCenter, machines virtuelles, templates Windows
+      </li>
+
+      <li>
+        <strong>Messagerie :</strong>
+        Microsoft Exchange
+      </li>
+
+      <li>
+        <strong>Supervision &amp; support :</strong>
+        supervision systèmes, ticketing, support N2/N3
+      </li>
+
+      <li>
+        <strong>Sauvegarde :</strong>
+        contrôle des jobs, restauration de VM et boîtes aux lettres
+      </li>
+
+      <li>
+        <strong>Automatisation :</strong>
+        scripting, Visual TOM, automatisation des traitements d'exploitation
+      </li>
+
+    </ul>
+
+  </section>
+
+
+  <!-- REALISATIONS -->
+
+  <section class="card">
+
+    <h2>Réalisations &amp; Contributions</h2>
+
+    <ul>
+
+      <li>
+        Contribution au <strong>maintien en conditions opérationnelles</strong>
+        des infrastructures Windows et Linux.
+      </li>
+
+      <li>
+        Participation à l'administration et au déploiement des
+        <strong>machines virtuelles VMware</strong> ainsi qu'à la gestion
+        des templates Windows.
+      </li>
+
+      <li>
+        Prise en charge d'incidents et de demandes complexes de niveaux
+        <strong>N2/N3</strong>, de leur diagnostic jusqu'à leur résolution.
+      </li>
+
+      <li>
+        Participation aux opérations de <strong>sauvegarde et restauration</strong>
+        afin de contribuer à la continuité des services.
+      </li>
+
+      <li>
+        Contribution aux opérations de <strong>maintenance et de montée
+        de version des applications métiers hospitalières</strong>.
+      </li>
+
+      <li>
+        Automatisation de tâches d'exploitation et de traitements via
+        <strong>Visual TOM</strong>.
+      </li>
+
+      <li>
+        Amélioration et actualisation de la
+        <strong>documentation technique et des procédures d'exploitation</strong>.
+      </li>
+
+    </ul>
+
+  </section>
+
+
+  <!-- NAVIGATION -->
+
+  <div style="margin-top:16px;display:flex;gap:12px;flex-wrap:wrap">
+
+    <a class="btn" href="index.html#experience">
+      Revenir aux expériences
+    </a>
+
+    <a class="btn btn-outline" href="index.html#home">
+      Aller à l'accueil
+    </a>
+
+  </div>
+
+
+  <footer>
+
+    <p>
+      © 2026 Ambdil HAMIDI – Détails d'expérience
+    </p>
+
+  </footer>
+
+</div>
+```
+
+  </main>
+
+</body>
+</html>
